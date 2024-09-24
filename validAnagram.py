@@ -13,7 +13,7 @@ def validAnagram(s, t):
     for char in t:
         t_dic[char] = t_dic.get(char, 0) + 1#doing the same for word t
 
-    return s_dic == t_dic #comparsion for two dictionaries
+    return s_dic == t_dic #compared dictionaries
 
 #testing
 print(validAnagram("grey", "regy")) #expected result true
